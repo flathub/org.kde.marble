@@ -25,8 +25,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.04.3/src/marble-23.04.3.tar.xz",
-                    "sha256": "88feb03e4b3b1fcfc17e7ea4cd4bd4ddc7f08fd30fa550393171406e9d4fda93",
+                    "url": "https://download.kde.org/stable/release-service/23.08.0/src/marble-23.08.0.tar.xz",
+                    "sha256": "a11bf99d09ce87acf3f7c997df5e77a5125582f009cf034df6785fd81af55bb6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
