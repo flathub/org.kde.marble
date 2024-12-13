@@ -1,10 +1,10 @@
 {
     "id": "org.kde.marble",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-23.08",
+    "runtime-version": "6.8",
     "sdk": "org.kde.Sdk",
     "base": "io.qt.qtwebengine.BaseApp",
-    "base-version": "5.15-23.08",
+    "base-version": "6.8",
     "command": "marble",
     "rename-icon": "marble",
     "finish-args": [
@@ -19,14 +19,11 @@
             "name": "marble",
             "buildsystem": "cmake-ninja",
             "builddir": true,
-            "post-install": [
-                "rm /app/share/applications/org.kde.marble-qt.desktop"
-            ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/marble-24.08.3.tar.xz",
-                    "sha256": "c53c1faa741e1b424594c2021fa4edc620528e862ceff280cb3c952d1af20371",
+                    "url": "https://download.kde.org/stable/release-service/24.12.0/src/marble-24.12.0.tar.xz",
+                    "sha256": "a347f134d1428bd46b886bb41a292a2fec4aea4de274bff73cd8b8994f920576",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
