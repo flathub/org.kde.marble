@@ -40,18 +40,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.0/src/marble-25.04.0.tar.xz",
-                    "sha256": "27bdf174215a66136795ef3d0a7a2f3e09d21b12d2c83ec3309d84389dd52909",
+                    "url": "https://download.kde.org/stable/release-service/25.04.1/src/marble-25.04.1.tar.xz",
+                    "sha256": "6d2469827644f728f9fc9a023388a66813f819687d15fd2c9392d8323e37f0e2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/marble-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "appdata.patch"
                 }
             ]
         }
