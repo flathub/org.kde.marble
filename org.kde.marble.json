@@ -14,11 +14,13 @@
         "--socket=wayland",
         "--device=dri"
     ],
+    "cleanup": [
+        "/include",
+        "/share/doc",
+        "/share/qlogging-categories6"
+    ],
     "cleanup-commands": [
         "/app/cleanup-BaseApp.sh"
-    ],
-    "cleanup": [
-        "/include"
     ],
     "modules": [
         {
