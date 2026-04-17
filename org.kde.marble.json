@@ -30,8 +30,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.12.3/src/marble-25.12.3.tar.xz",
-                    "sha256": "6f444e70f61ae3e4b7a2c9cc07bea788a795263693278ac637d8afc86a0c3dd4",
+                    "url": "https://download.kde.org/stable/release-service/26.04.0/src/marble-26.04.0.tar.xz",
+                    "sha256": "4b0aef4a08a41647d82c2b50198252e8e332fb7880f614ce6c5561eb073c9822",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
