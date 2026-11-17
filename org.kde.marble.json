@@ -8,11 +8,11 @@
     "command": "marble",
     "rename-icon": "marble",
     "finish-args": [
-        "--share=network",
+        "--device=dri",
         "--share=ipc",
-        "--socket=x11",
-        "--socket=wayland",
-        "--device=dri"
+        "--share=network",
+        "--socket=fallback-x11",
+        "--socket=wayland"
     ],
     "cleanup": [
         "/include",
